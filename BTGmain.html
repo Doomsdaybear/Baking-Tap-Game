@@ -9,7 +9,10 @@
             }
             p {
                 text-align:center;
-                color:white
+                color:white;
+            }
+            .upgradediv{
+                text-align:right
             }
         </style>
     </head>
@@ -19,13 +22,16 @@
         <div style = "text-align:center">
             <button style = "button" onclick = "Game()">The Pastry</button>
         </div>
-
+        <div class = ".upgradediv">
+            <button style = "button" onclick = "alert('test')">E</button>
+        </div>
         <script>
             var Cookies = 0;
             function Game(){
-                
+        
             var al =  ++Cookies;
-            alert(al)
+            alert(al);
+            
             }
         </script>
 
